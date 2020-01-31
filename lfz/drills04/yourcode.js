@@ -1,5 +1,3 @@
-
-
 function changeElements(myClass){
   var numbers = {
     one: 1,

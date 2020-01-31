@@ -1,5 +1,3 @@
-
-
 function getPath(str){
   var currentWord = "";
   var words = [];
@@ -69,8 +67,4 @@ function correctCalcChecker(objArr){
     }
   }
   return answer;
-}
-
-function doMath(){
-
 }
