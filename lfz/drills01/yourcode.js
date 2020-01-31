@@ -38,4 +38,5 @@ function makeLabel(input){
   input["home address"].city + ", " +
   input["home address"].state + " " +
   input["home address"].zip;
+  console.log(makeLabel("yes"));
 }
