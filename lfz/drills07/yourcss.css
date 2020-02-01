@@ -1,0 +1,16 @@
+
+.makeRed{
+	color: red;
+}
+.makeRed.noMakeGreen{
+	color: green;
+}
+#iShouldBeYellow{
+	color: yellow;
+}
+.parentDiv > .noMakeGreen {
+	color: blue;
+}
+section {
+	background-color: purple;
+}
