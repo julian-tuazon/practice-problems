@@ -25,3 +25,7 @@ function isPositiveDominant(a) {
   neg.forEach(num => !newNeg.includes(num) ? newNeg.push(num) : '');
   return newPos.length > newNeg.length;
 }
+
+function isPositiveDominant(a) {
+  return a.filter((num, i) => a.indexOf(num) === i).filter(num => num > 0).length > a.filter((num, i) => a.indexOf(num) === i).filter(num => num < 0).length;
+}
