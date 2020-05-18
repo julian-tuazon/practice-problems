@@ -22,3 +22,11 @@
 // Notes
 // A number which is evenly divisible by 2 and 5 will have both effects applied(see example #4).
 // "Boom" will always start with a capital "B", except when n is less than 2, then return a minature explosion as "boom".
+
+function boomIntensity(n) {
+  if (n < 2) return "boom";
+  let str = `B${'o'.repeat(n)}m`;
+  if (n % 5 === 0) str = str.toUpperCase();
+  if (n % 2 === 0) str += '!';
+  return str;
+}
