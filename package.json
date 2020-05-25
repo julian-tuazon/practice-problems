@@ -17,5 +17,8 @@
     "url": "https://github.com/julian-tuazon/practice-problems/issues"
   },
   "homepage": "https://github.com/julian-tuazon/practice-problems#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
+  }
 }
