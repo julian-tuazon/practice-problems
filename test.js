@@ -1,6 +1,5 @@
-const { join, resolve } = require('path');
-const { expect } = require('chai');
+const { resolve } = require('path');
 
 describe('practice problem tests', () => {
-  require(join(__dirname, 'tests/rockPaperScissors.test'));
+  require(resolve(__dirname, 'tests/edabit/rockPaperScissors.test'));
 });
