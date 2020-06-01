@@ -15,3 +15,5 @@ function intWithinBounds(n, lower, upper) {
   if (!Number.isInteger(n)) return false;
   return (n < upper) && (n >= lower);
 }
+
+exports.intWithinBounds = intWithinBounds;
