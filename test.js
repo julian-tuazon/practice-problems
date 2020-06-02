@@ -1,6 +1,5 @@
 const { resolve } = require('path');
 
 describe('practice problem tests', () => {
-  require(resolve(__dirname, 'tests/edabit/rockPaperScissors.test'));
-  require(resolve(__dirname, 'tests/edabit/integerInRange.test'));
+  require(resolve(__dirname, 'tests/edabit/thePerrinSequence.test'));
 });
