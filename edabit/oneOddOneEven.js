@@ -17,3 +17,5 @@ function oneOddOneEven(n) {
   }
   return test.odd && test.even;
 }
+
+exports.oneOddOneEven = oneOddOneEven;
