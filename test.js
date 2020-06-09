@@ -1,5 +1,5 @@
 const { resolve } = require('path');
 
 describe('practice problem tests', () => {
-  require(resolve(__dirname, 'tests/edabit/oneOddOneEven.test'));
+  require(resolve(__dirname, 'tests/edabit/leapYears.test'));
 });
