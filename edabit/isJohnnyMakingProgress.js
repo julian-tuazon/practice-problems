@@ -14,3 +14,16 @@
 // progressDays([9, 9]) ➞ 0
 // Notes
 // Running the same number of miles as last week does not count as a progress day.
+
+function progressDays(runs) {
+  if (!runs.length) return 0;
+  let progressDays = 0;
+  let prevRun = runs.shift();
+  runs.forEach(run => {
+    if (prevRun < run) progressDays++;
+    prevRun = run;
+  });
+  return progressDays;
+}
+
+exports.progressDays = progressDays;
