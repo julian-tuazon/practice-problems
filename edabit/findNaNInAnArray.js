@@ -16,3 +16,5 @@ function findNaN(number) {
   }
   return -1;
 }
+
+exports.findNaN = findNaN;
