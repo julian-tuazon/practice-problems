@@ -20,7 +20,7 @@ describe('coneVolume(h, r)', () => {
     });
   });
   context('h is 21, r is 14', () => {
-    it('should return 33.51', () => {
+    it('should return 4310.27', () => {
       expect(coneVolume(21, 14)).to.equal(4310.27);
     });
   });
